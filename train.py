@@ -72,7 +72,7 @@ def main(args=None):
     
     print('Num training images: {}'.format(len(dataset_train)))
     
-    parser.epochs = 5
+    parser.epochs = 200
     print('Number of Epochs: {}'.format(parser.epochs))
     for epoch_num in range(parser.epochs):
         retinanet.train()
